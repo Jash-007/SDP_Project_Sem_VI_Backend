@@ -7,7 +7,7 @@ const like_controller=require('../Controller/like.js')
 const reset_controller=require('../Controller/reset.js')
 console.log("hello ji")
 router.post("/signup",user_controller.register);
-router.post("/login",user_controller.auth);
+router.post("/loogin",user_controller.auth);
 router.post("/loginrecuter",user_controller.rauth);
 router.post("/updatedata",user_controller.update);
 router.get("/admin",admin_controller.adminview);
